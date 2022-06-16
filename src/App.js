@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Navbar >
-        <div>
+        <div className="mt-3">
           <Banner />
           <div className="my-10 mx-5">
             <Highlights />
