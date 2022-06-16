@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    transition: .8s;
+    background-color: antiquewhite;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 34px;
+    border-radius: 4px;
+}
